@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+
+
+    <div id="todo">
+
+       <div class="text">
+        <h2>To-D0</h2>
+
+            <!-- <p><button class="btn"  id="myInput" onclick="newElement()"> Add</button></p> -->
+
+
+            <input type="text" id="myInput" placeholder="Todo.....">
+            <span onclick="newElement()" class="addBtn">Add</span>
+      
+        <!-- <textarea name="nametodo" id="textarea" cols="40" rows="2" placeholder="Enter to-do name"></textarea> -->
+
+            <!-- <p><button class="btn" id="delete">Delete</button></p> -->
+       </div>
+
+
+        <div id="todo_lists">
+            <h2>My List</h2>
+            <ul id="myUL">
+                <li class="lists">Morning Work</li>
+                <li class="lists">School Project</li>
+                <li class="lists">Completing my Novel</li>
+            </ul>
+        </div>
+
+       
+
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
